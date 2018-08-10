@@ -1,0 +1,7 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark mb-5">
+    <h3 class="text-white float-right">Home</h3>
+</nav>
+
+<a [routerLink]="'/person/' + user" *ngFor="let user of topFive" class="btn btn-success mr-1">
+    {{user}}
+</a>
